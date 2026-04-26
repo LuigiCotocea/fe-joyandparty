@@ -7,6 +7,10 @@
 /* =========================================================
    1. RESET & GLOBAL
 ========================================================= */
+html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+}
 
 * {
     margin: 0;
@@ -454,4 +458,81 @@ footer {
     padding: 25px;
     color: #777;
     font-size: 0.95rem;
+}
+
+/* =========================================================
+   MOBILE RESPONSIVE (iPhone / Samsung)
+========================================================= */
+
+@media (max-width: 768px) {
+
+    /* NAVBAR */
+    .nav-container {
+        padding: 12px 20px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav-center .nav-links {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav-right {
+        display: none; /* CTA dispare pe mobil pentru clean UI */
+    }
+
+    /* HERO */
+    header h1 {
+        font-size: 2.2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    .hero-logo {
+        height: 60px;
+    }
+
+    /* SECTIONS */
+    section {
+        padding: 70px 20px;
+    }
+
+    /* TWO COL → STACK */
+    .two-col {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* MENIU */
+    .menu-images {
+        grid-template-columns: 1fr;
+    }
+
+    .menu-img {
+        padding: 10px;
+    }
+
+    /* EXPERIENȚĂ */
+    .exp-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* REZERVĂRI */
+    .rez-form {
+        width: 100%;
+    }
+
+    /* CONTACT */
+    #contact .contact-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    #contact .contact-map {
+        height: 300px;
+    }
+
 }
