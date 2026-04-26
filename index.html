@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Joy & Party | Fine Dining</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+// Navbar
+<nav>
+    <div class="nav-container">
+
+        <div class="nav-left">
+            <img src="Logo.jpg" alt="FE Joy & Party Logo" id="logo">
+        </div>
+
+        <div class="nav-center">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#despre">Despre</a></li>
+                <li><a href="#meniu">Meniu</a></li>
+                <li><a href="#experienta">Experiență</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="nav-right">
+            <a href="#rezervari" class="nav-cta">Rezervă</a>
+        </div>
+
+    </div>
+</nav>
+
+<!-- HERO -->
+<header id="home">
+    <img src="Logo.jpg" class="hero-logo">
+    <h1>FE Joy & Party</h1>
+    <p>Fine Dining Italian Experience</p>
+</header>
+
+<!-- DESPRE -->
+<section id="despre" class="two-col">
+    <div class="text">
+        <h2>Despre Noi</h2>
+        <p>
+            Restaurantul nostru oferă o experiență fine dining autentică în Timișoara,
+            inspirată din bucătăria italiană clasică și reinterpretată modern.
+        </p>
+    </div>
+
+    <div class="image placeholder">
+        <img src="Interior.png" id="image" alt="Imagine Restaurant">
+    </div>
+</section>
+
+<!-- MENIU -->
+<section id="meniu">
+<h2>Meniu</h2>
+
+<div class="menu-images">
+
+    <div class="menu-img placeholder">
+        Meniu Pagina 1
+    </div>
+
+    <div class="menu-img placeholder">
+        Meniu Pagina 2
+    </div>
+
+</div>
+</section>
+
+<!-- GALERIE -->
+<section id="experienta">
+    <h2 class="exp-title">Experiența Joy & Party</h2>
+
+    <div class="exp-grid">
+        <div class="exp-card">
+            <h3>Atmosferă Exclusivistă</h3>
+            <p>Un decor sofisticat, lumină caldă și detalii ce definesc eleganța.</p>
+        </div>
+
+        <div class="exp-card">
+            <h3>Bucătărie Rafinată</h3>
+            <p>Preparatele noastre îmbină tradiția italiană cu influențe moderne.</p>
+        </div>
+
+        <div class="exp-card">
+            <h3>Serviciu Premium</h3>
+            <p>Fiecare detaliu este gândit pentru o experiență impecabilă.</p>
+        </div>
+    </div>
+</section>
+
+<!-- REZERVARI -->
+<section id="rezervari">
+    <div class="rez-wrapper">
+        <div class="rez-info">
+            <h2 class="rez-title">Rezervări Exclusive</h2>
+            <p>
+                Asigură-ți locul pentru o experiență culinară memorabilă
+                în atmosfera sofisticată a restaurantului FE Joy & Party.
+            </p>
+        </div>
+
+        <form class="rez-form">
+            <input type="text" placeholder="Nume complet" required>
+            <input type="email" placeholder="Email" required>
+            <input type="date" required>
+            <button type="submit">Rezervă Acum</button>
+        </form>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <div class="contact-wrapper">
+
+        <div class="contact-info">
+            <h2 class="contact-title">Contact & Locație</h2>
+            <p class="contact-subtitle">
+                Suntem pregătiți să vă oferim o experiență culinară exclusivistă
+                în inima Timișoarei.
+            </p>
+
+            <div class="contact-details">
+                <div class="contact-card">
+                    <h3>Email</h3>
+                    <p>contact@joyandparty.com</p>
+                </div>
+
+                <div class="contact-card">
+                    <h3>Telefon</h3>
+                    <p>+40 700 000 000</p>
+                </div>
+
+                <div class="contact-card">
+                    <h3>Adresă</h3>
+                    <p>Timișoara, România</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-map">
+            <iframe 
+                src="https://www.google.com/maps?q=Timisoara&output=embed"
+                width="100%" 
+                height="100%" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 FE Joy & Party Fine Dining</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
